@@ -1,10 +1,8 @@
 # DankBot
-[![Build Status](https://travis-ci.com/IshanManchanda/Dankbot.svg?branch=master)](https://travis-ci.com/IshanManchanda/Dankbot)
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/046a62ddd70b4e779348616a5b902097)](https://www.codacy.com/gh/IshanManchanda/DankBot/dashboard)
-[![CodeFactor](https://www.codefactor.io/repository/github/ishanmanchanda/dankbot/badge)](https://www.codefactor.io/repository/github/ishanmanchanda/dankbot)
+![License](https://img.shields.io/github/license/IshanManchanda/DankBot?style=flat-square&color=blue)
+[![CodeFactor](https://www.codefactor.io/repository/github/ishanmanchanda/dankbot/badge?style=flat-square)](https://www.codefactor.io/repository/github/ishanmanchanda/dankbot)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/04b9d80565c44b0d9d2677bdb86897ba)](https://www.codacy.com/gh/IshanManchanda/DankBot/dashboard)
 [![codebeat badge](https://codebeat.co/badges/457b7511-92e7-4286-89fb-83483cd30c94)](https://codebeat.co/projects/github-com-ishanmanchanda-dankbot-master)
-[![Maintainability](https://api.codeclimate.com/v1/badges/49b7d08b50e3e56ea285/maintainability)](https://codeclimate.com/github/IshanManchanda/DankBot/maintainability)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg?style=flat-square)](https://saythanks.io/to/Rippr)
 
@@ -12,14 +10,23 @@
 DankBot - A Telegram Bot that sends, generates, and **deep fries** memes.
 
 # Why DankBot?
-DankBot has been an extremely fun project to work on. <br><br>
+DankBot has been an extremely fun project to work on.
+<br>
 The idea itself started off as a joke - My friends and I would often reference memes
-in our conversations and wishfully discuss a tool that would share memes in response 
+in our conversations and wishfully talk about a tool that would share memes in response 
 to certain triggers. While the idea of making a bot had occurred to me, the fact
 that Whatsapp, our primary communications app, didn't have a public API was discouraging.
-<br><br>
-Later, when I found out about Telegram's rich bot culture, I was thrilled
-and began this project on the 4th of September 2018.
+<br>
+Later when I found out about Telegram's rich bot culture, I was thrilled
+and soon began this project.
+<br>
+
+Since then the project has gone through enough changes to make it nearly unrecognizable,
+most notably the addition of the deep frier and the various iterative improvements to it.
+It has also served as a playground for a lot of things I've explored.
+This list includes CI/CD systems like Travis CI and CodeShip,
+automated code quality reviews (evidenced by the several badges!),
+and different face detection methods with OpenCV.
 
 ### Major Technologies Used
 - Python 3
@@ -27,18 +34,20 @@ and began this project on the 4th of September 2018.
 - OpenCV-Python (Python bindings for the Open Computer Vision library)
 - Numba
 - Python Telegram Bot (Wrapper over the Telegram API)
-- Papertrail API
+- Papertrail Add-on on Heroku
 
 ### Things I've Learnt
 - Building stateless, event-driven bots
-- Detecting text and eyes in images using OpenCV
+- Detecting text, faces, and eyes in images using OpenCV
 - Manipulating images with PIL
-- Extracting frames from a video and making videos from a series of frames using OpenCV + imutils.
+- Extracting frames from a video and making videos from a series of frames using OpenCV + imutils
 - Using Numba JIT and asynchronous execution to improve performance
 - Applying binary search on discrete functions (Used to calculating optimum text size in the meme generator)
 - Uploading images to Imgur with PyImgur
 - Using papertrail API for centralized logging
-- Static log analysis (DankBot Stats)
+- Using static log analysis to get stats ([DankBot-Stats](https://github.com/IshanManchanda/DankBot-Stats))
+- Using CI/CD systems like Travis CI and CodeShip
+- Using automated code quality reviews
 
 # Using DankBot
 
