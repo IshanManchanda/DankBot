@@ -95,12 +95,12 @@ changes = '''
 
 # Vaporwave Text
 normal = \
-	'''abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890''' + \
-	'''`-=~!@#$%^&*()_+[];',./{}:"|<>?'''
+    '''abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890''' + \
+    '''`-=~!@#$%^&*()_+[];',./{}:"|<>?'''
 vapor = \
-	'''ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ''' + \
-	'''ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ１２３４５６７８９０''' + \
-	'''`－＝~！＠＃＄％^＆＊（）_＋[]；＇，．／{}："|<>？'''
+    '''ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ''' + \
+    '''ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ１２３４５６７８９０''' + \
+    '''`－＝~！＠＃＄％^＆＊（）_＋[]；＇，．／{}："|<>？'''
 vaportext = {normal[x]: vapor[x] for x in range(len(normal))}
 vaportext[' '] = '   '
 
@@ -111,11 +111,11 @@ excluded = ['a', 'an', 'and', 'are', 'if', 'the']
 # Misc.
 chars = 'abcdefghijklmnopqrstuvwxyz'
 keys = [
-	'shallow', 'deep',
-	'no-fat', 'low-fat', 'high-fat',
-	'light', 'heavy',
-	'no-chilli',
-	'vitamin-b'
+    'shallow', 'deep',
+    'no-fat', 'low-fat', 'high-fat',
+    'light', 'heavy',
+    'no-chilli',
+    'vitamin-b'
 ]
 
 ironic = '''
