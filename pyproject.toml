@@ -16,7 +16,7 @@ Pillow = "^9.2.0"
 pyimgur = "^0.6.0"
 python-dotenv = "^0.20.0"
 python-telegram-bot = "^13.13"
-pytz = "^2021.3"
+pytz = "^2022.1"
 requests = "^2.28.1"
 
 [tool.poetry.dev-dependencies]
