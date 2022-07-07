@@ -144,7 +144,7 @@ requests = "*"
 
 [[package]]
 name = "python-dotenv"
-version = "0.19.1"
+version = "0.20.0"
 description = "Read key-value pairs from a .env file and set them as environment variables"
 category = "main"
 optional = false
@@ -266,7 +266,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "3.9.7"
-content-hash = "8d4cbc1b3c3f4ab15b7cd79b8f4f0a4a284e8247e6b97bb1a4018d66dd4d509d"
+content-hash = "3474a8644adab260785b43f3a10b1819fb4bc17439becf2ccc070df51ba58a86"
 
 [metadata.files]
 apscheduler = [
@@ -444,8 +444,8 @@ pyimgur = [
     {file = "pyimgur-0.6.0.tar.gz", hash = "sha256:f776ca7f14663bd9ac14a1380db62c87ed32231d159d2d167ad1cb817dcb9144"},
 ]
 python-dotenv = [
-    {file = "python-dotenv-0.19.1.tar.gz", hash = "sha256:14f8185cc8d494662683e6914addcb7e95374771e707601dfc70166946b4c4b8"},
-    {file = "python_dotenv-0.19.1-py2.py3-none-any.whl", hash = "sha256:bbd3da593fc49c249397cbfbcc449cf36cb02e75afc8157fcc6a81df6fb7750a"},
+    {file = "python-dotenv-0.20.0.tar.gz", hash = "sha256:b7e3b04a59693c42c36f9ab1cc2acc46fa5df8c78e178fc33a8d4cd05c8d498f"},
+    {file = "python_dotenv-0.20.0-py3-none-any.whl", hash = "sha256:d92a187be61fe482e4fd675b6d52200e7be63a12b724abbf931a40ce4fa92938"},
 ]
 python-telegram-bot = [
     {file = "python-telegram-bot-13.13.tar.gz", hash = "sha256:4296d81a38b7e5ef1f9795651128e58fb354678b8dc4db93ca166c96828c57b2"},
