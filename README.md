@@ -6,10 +6,9 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg?style=flat-square)](https://saythanks.io/to/Rippr)
 
-
 DankBot - A Telegram Bot that sends, generates, and **deep fries** memes.
 
-# Why DankBot?
+## Why DankBot?
 DankBot has been an extremely fun project to work on.
 <br>
 The idea itself started off as a joke - My friends and I would often reference memes
@@ -49,9 +48,9 @@ and different face detection methods with OpenCV.
 - Using CI/CD systems like Travis CI and CodeShip
 - Using automated code quality reviews
 
-# Using DankBot
+## Using DankBot
 
-## Basic Commands
+### Basic Commands
 Each of these commands trigger a certain response. <br>
 For most commands, there are multiple responses from which one is randomly picked.
 
@@ -66,34 +65,33 @@ For most commands, there are multiple responses from which one is randomly picke
 - F / RIP
 - ???
 
-## Advanced Commands
+### Advanced Commands
 
-### ABC, not XYZ
+#### ABC, not XYZ
 Generates a meme using either the Robbie Rotten, Babushka, or Drake template in which ABC is chosen over XYZ.
 
-### Alt: ABC
+#### Alt: ABC
 Converts text that follows the colon to aLt CaSe. It deletes the trigger message if bot has admin rights.
 
-### Vaporize: ABC
+#### Vaporize: ABC
 Converts text that follows the colon to Vaporwave text. It deletes the trigger message if bot has admin rights.
 
-### 🅱
+#### 🅱
 Replaces the first consonant group of each word with a 🅱. <br>
 It doesn't replace those consonants which can (mostly) be pronounced after a B.
 
-### Alexa / Dankbot play Despacito \[x\]
+#### Alexa / Dankbot play Despacito \[x\]
 Sends a GIF of the Despacito music video along with an audio file of Despacito. <br>
 If a number x is given, certain effects are applied to the audio. <br>
 If not, the audio file has a 10% chance of being extremely bass boosted. <br>
 
-### T: ABC B: XYZ
+#### T: ABC B: XYZ
 Creates a meme with the provided captions when the message is a reply to an image.
 ABC is the top-text and XYZ is the bottom-text.
 By default, the captions are converted to upper case.
 Replacing T with Ts and B with Bs prevents auto-capitalization.
 
-
-## Deep Fryer
+### Deep Fryer
 The Deep Fryer fries images, GIFs, or videos (Experimental).
 Frying includes increasing saturation & contrast, and adding noise, emojis, laser eyes, and bulges.
 
