@@ -6,7 +6,7 @@ authors = ["Ishan Manchanda <ishanmanchanda70@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.10.6"
+python = "3.10.7"
 imageio-ffmpeg = "^0.4.7"
 imutils = "^0.5.4"
 numba = "^0.56.2"
